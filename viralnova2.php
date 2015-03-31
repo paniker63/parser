@@ -1,4 +1,5 @@
 ﻿<?php
+
 // настройки
 $site_name = 'http://www.viralnova.com/';
 //$db_user = 'root';
@@ -69,5 +70,4 @@ $values = substr($values,1,strlen($values));
 // заносим фотографии в БД
 $query = "INSERT INTO `$db_table_name` (`url`, `image`) VALUES $values ;";
 mysql_query($query,$link) or die(mysql_error());
- 
 ?>

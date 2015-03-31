@@ -1,4 +1,5 @@
-<?php
+<?php 
+
 ob_start();
 $now1=date("d-m-Y");
 $content = file_get_contents("http://crwl.ru/api/rest/v1/get_ads/?api_key=fa638b23fef16a26f2584fbd5d967da3&source=irr.ru&min_date=".$now1."&max_date=".$now1."&region=1");

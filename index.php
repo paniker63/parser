@@ -1,4 +1,5 @@
 <?php
+
 echo "<html><head><title>Привет</title><meta http-equiv='Content-Type' content='text/html; charset=utf-8'></head><body><table>";
 $dir    = '/var/www/parsers';
 $files = scandir($dir);
@@ -38,7 +39,5 @@ foreach($data_array as $k=>$v)
 	}
 
 }
-
-
 echo "</body></html>";
 ?>
